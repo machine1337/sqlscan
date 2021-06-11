@@ -1,6 +1,8 @@
 # sqlscan
     A small and an efficent tool to detect sql injection vulnerabilities in a websites. Its a pretty simple tool just add urls and payloads file to the script 
     and it will scan for sql injection from your desire payloads.
+![sql](https://user-images.githubusercontent.com/82051128/121683035-4424b300-cad6-11eb-83ca-754944fbbff0.png)
+
 
 # Pre-requisite:
     1. only curl is required.
