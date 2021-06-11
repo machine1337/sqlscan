@@ -31,7 +31,7 @@ echo -e ${RED}"#################################################################
 }
 sleep 1
 echo -e ${CP}"[+] Checking Internet Connectivity"
-if [[ "$(ping -c 1 8.8.8.8 | grep '100% packet loss' )" != "" ]]; then
+if [[ "$(ping -c 1 google.com | grep '100% packet loss' )" != "" ]]; then
   echo "No Internet Connection"
   exit 1
   else
