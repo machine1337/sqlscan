@@ -93,6 +93,16 @@ ctrl_c() {
 clear
 echo -e ${RED}"[*] (Ctrl + C ) Detected, Trying To Exit... "
 echo -e ${RED}"[*] Stopping Services... "
+if [[ ! -f mass1  ]]; then
+ echo "aleady cleaned"   >/dev/null 2>&1
+else
+rm  -R mass1 
+fi
+if [[ ! -f mass2  ]]; then echo "aleady cleaned"   >/dev/null 2>&1 
+else
+rm  -R mass2
+fi
+ 
 sleep 1
 echo ""
 echo -e ${YELLOW}"[*] Thanks For Using SQL SCANNER  :)"
