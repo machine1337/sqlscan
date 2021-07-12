@@ -128,3 +128,4 @@ echo -n -e ${YELLOW}"\n[+] Select: "
                 fi
 }
 menu
+#coded by Machine404. Don't copy this code without giving me credit nerd!
